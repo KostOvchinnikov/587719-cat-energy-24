@@ -1,0 +1,54 @@
+.advantages {
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.advantages__title {
+  margin: 0;
+  padding: 0;
+  font-family: $Oswald;
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+}
+
+.advantages__list {
+  margin-top: 42px;
+  padding-left: 80px;
+}
+
+.advantages__item {
+  position: relative;
+  margin-bottom: 26px;
+  font-family: $Arial;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444444;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    top: -7px;
+    left: -80px;
+    background-repeat: no-repeat;
+  }
+
+  &--useful::before {
+    background-image: url("../../img/advantages-useful-ico.svg");
+  }
+
+  &--comfortably::before {
+    background-image: url("../../img/advantages-comfortably-ico.svg");
+  }
+
+  &--easy::before {
+    background-image: url("../../img/advantages-easy-ico.svg");
+  }
+
+  &--fast::before {
+    background-image: url("../../img/advantages-fast-ico.svg");
+  }
+}

@@ -1,0 +1,48 @@
+.additional-information {
+  margin: 0;
+  padding: 0;
+  padding-top: 23px;
+  padding-bottom: 41px;
+
+  label {
+    position: relative;
+  }
+}
+
+.additional-information__list {
+  margin: 0;
+  margin-top: 39px;
+  padding: 0;
+  padding-left: 46px;
+}
+
+.additional-information__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.additional-information input[type="checkbox"] {
+  display: none;
+}
+
+.additional-information input[type="checkbox"] + label::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: inherit;
+  border: 1px solid #cdcdcd;
+  top: -4px;
+  left: -46px;
+}
+
+.additional-information input[type="checkbox"]:checked + label::after {
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 14px;
+  top: 4px;
+  left: -39px;
+
+  background-image: url("../../../img/tick-mobile.svg");
+  background-repeat: no-repeat;
+}

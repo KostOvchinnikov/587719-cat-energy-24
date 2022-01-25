@@ -1,0 +1,143 @@
+.promo {
+  margin: 0;
+  padding: 0;
+  padding-top: 27px;
+  background-color: #68b738d9;
+  background-image: url("../../img/index-background-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain 80%;
+}
+
+.promo__title {
+  margin: 0;
+  padding: 0;
+  font-family: $Oswald;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+
+.promo__title-description {
+  position: relative;
+  margin: 0;
+  margin-bottom: 302px;
+  padding: 0;
+  margin-top: 25px;
+  font-family: $Oswald;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  &::before {
+    position: absolute;
+    content: "";
+
+    width: 280px;
+    height: 270px;
+
+    top: 40px;
+    left: 0;
+
+    background-image: url("../../img/index-can-mobile-1.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.promo__main-button {
+  padding: 12px 44px;
+  font-size: 14px;
+}
+
+.promo__list {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  width: 100%;
+}
+
+.promo__item {
+  padding: 20px;
+  margin-bottom: 20px;
+  min-width: 280px;
+  background-color: #f2f2f2;
+
+  &--slim .promo__item-title::before {
+    position: absolute;
+    content: "";
+
+    width: 50px;
+    height: 53px;
+
+    top: -13px;
+    left: -80px;
+
+    background-image: url("../../img/cat-slim.svg");
+    background-repeat: no-repeat;
+  }
+
+  &--pro .promo__item-title::before {
+    position: absolute;
+    content: "";
+
+    width: 67px;
+    height: 50px;
+
+    top: -10px;
+    left: -80px;
+
+    background-image: url("../../img/cat-pro.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.promo__item-title {
+  position: relative;
+  margin: 0;
+  margin-left: 71px;
+  padding: 0;
+  font-family: $Oswald;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.promo__item-description {
+  margin-top: 29px;
+  margin-bottom: 19px;
+  padding-bottom: 23px;
+  font-family: $Arial;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444444;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.promo__item-link {
+  position: relative;
+  display: inline-block;
+  padding-right: 47px;
+  font-family: $Oswald;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  text-transform: uppercase;
+
+  &::after {
+    position: absolute;
+    content: "";
+
+    width: 32px;
+    height: 10px;
+
+    top: 4px;
+    right: 0;
+
+    background-image: url("../../img/icon_arrow.svg");
+    background-repeat: no-repeat;
+  }
+}

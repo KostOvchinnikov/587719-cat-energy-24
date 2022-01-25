@@ -1,0 +1,23 @@
+.cat-information {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 24px;
+}
+
+.cat-information__list {
+  padding: 0;
+}
+
+.cat-information__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:not(:first-child) {
+    margin-top: 14px;
+  }
+
+  input {
+    flex-grow: 1;
+    margin-left: 12px;
+  }
+}

@@ -1,0 +1,21 @@
+.page-footer {
+  padding-top: 39px;
+  padding-bottom: 22px;
+  background-color: #f2f2f2;
+}
+
+.page-footer__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-footer__logo-image {
+  display: block;
+  width: 128px;
+  margin: 0 auto;
+}
+
+.page-footer__socials {
+  margin-top: 32px;
+}
