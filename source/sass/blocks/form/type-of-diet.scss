@@ -16,11 +16,6 @@
   margin-bottom: 25px;
 }
 
-
-.type-of-diet input[type="radio"] {
-  display: none;
-}
-
 .type-of-diet input[type="radio"] + label::before {
   position: absolute;
   content: "";
