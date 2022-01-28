@@ -1,0 +1,37 @@
+.extra-product {
+  padding-top: 13px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #cdcdcd;
+
+  &:first-child {
+    border-top: 1px solid #cdcdcd;
+  }
+}
+
+.extra-product__title {
+  margin: 0;
+  margin-bottom: 13px;
+  padding: 0;
+  font-family: $Oswald;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.extra-product__description {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  width: 100%;
+  font-family: $Arial;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444444;
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra-product__button {
+  padding: 10px;
+}

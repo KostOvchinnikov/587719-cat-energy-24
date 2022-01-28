@@ -1,0 +1,75 @@
+.example {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  background-color: #eaeaea;
+}
+
+.example__title {
+  margin: 0;
+  padding: 0;
+  font-family: $Oswald;
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+}
+
+.example__description {
+  margin-top: 40px;
+  font-family: $Arial;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444444;
+}
+
+.example__list {
+  width: 280px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.example__item {
+  position: relative;
+  padding-top: 15px;
+  width: 124px;
+  height: 56px;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+}
+
+.example__value {
+  margin: 0;
+  padding: 0;
+  font-family: $Oswald;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.example__sign {
+  display: block;
+  width: 87px;
+  background-color: #eaeaea;
+  position: absolute;
+  top: 32px;
+  left: 18px;
+  padding: 2px 14px;
+  font-family: $Arial;
+  font-weight: 400;
+  font-size: 12px;
+  color: #444444;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.example__cost {
+  margin-top: 30px;
+  font-family: $Oswald;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}

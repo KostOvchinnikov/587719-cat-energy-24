@@ -1,0 +1,20 @@
+.executor {
+  padding-top: 28px;
+}
+
+.executor__anc {
+  min-width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.executor__link {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-family: $Arial;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+}
